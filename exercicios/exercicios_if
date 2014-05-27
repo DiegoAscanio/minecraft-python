@@ -1,0 +1,9 @@
+Crie códigos em python para realizar as tarefas abaixo.
+
+a. pedir ao usuário para inserir um número entre 0 e 9. Se o numero inserido for menor que 0, mostrar a seguinte mensagem: 'Número menor que o limite inferior do intervalo', se estiver entre 0 e 9, mostrar a mensagem: 'Número contido no intervalo', Senão atender nenhuma das condições anteriores (O número for maior que 9) - mostrar a seguinte mensagem: 'Número maior que o limite superior do intervalo'. Desconsiderar a validação da entrada de dados do usuário.
+
+b. faça um programa que receba 3 notas de um aluno, calcule e mostra a média aritimética do aluno, assim como as seguintes mensagens para os seguintes casos:
+se a média aritmética do aluno for inferior a 3: 'REPROVADO';
+se a média aritmética do aluno for maior ou igual a 3 e inferior a 7: 'EXAME';
+se a média aritmética do aluno for maior ou igual a 7 e menor ou igual a 10: 'APROVADO'.
+Para alunos de exame, calcular e mostrar a nota que deverá ser tirada no exame para aprovação, considerando que a nota final será dada por: (nota_inicial + nota_exame)/2

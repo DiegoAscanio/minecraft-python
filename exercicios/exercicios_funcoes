@@ -1,0 +1,5 @@
+Crie funções em python para realizar as seguintes tarefas:
+
+a. Calcular o fatorial de um número.
+b. Calcular a área de um círculo
+c. Faça uma função em python que receba uma lista de inteiros (vetor) A por parâmetro e retorne um vetor B contendo o fatorial de cada elemento.

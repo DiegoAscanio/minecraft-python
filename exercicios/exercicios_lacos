@@ -1,0 +1,6 @@
+Crie códigos em python para realizar as seguintes tarefas:
+
+a. Dado o seguinte vetor vec = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], exibir todos os elementos do vetor.
+b. À partir do vetor anterior, exibir somente os elementos de índice par do vetor.
+c. Pedir o usuário para digitar um número e verificar se esse número é primo. (Os primos são todos os números maiores ou iguais a 2 que não apresentam mais do que 2 divisores - O número 1 e si mesmo)
+d. Ler dez conjuntos de dois valores - o primeiro representando o nome de um aluno e o segundo a sua altura. Encontrar o aluno mais alto e o mais baixo, mostrando os seus respectivos nomes e alturas

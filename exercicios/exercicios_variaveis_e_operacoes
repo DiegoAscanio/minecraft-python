@@ -1,0 +1,12 @@
+Crie códigos em python para realizar as seguintes tarefas:
+
+a. Armazenar seu nome (uma string) em uma variável
+b. Armazenar um nome à partir do que o usuário informar via teclado (comando input)
+c. Somar 1 com 1
+d. Dividir 2 por 2
+e. Multiplicar 3 por 5
+f. Elevar 2 à 8ª potência
+g. Pedir que um usuário informe sua idade via teclado e somar 1 ao valor informado pelo usuário
+h. Mostrar o resto da divisão de 11 por 3.
+i. Mostrar o quociente da divisão de 11 por 3.
+j. Faça um programa que receba o ano de nascimento de uma pessoa e o ano atual para calcular e mostrar a idade dessa pessoa atualmente, assim como a idade dessa pessoa em 2034.
