@@ -1,0 +1,25 @@
+configurar e instalar o servidor:
+1. baixar o arquivo craftbukkit-1.7.9-R0.2-SNAPSHOT.jar - http://tcpr.ca/files/craftbukkit/craftbukkit-1.7.9-R0.2-SNAPSHOT.jar
+2. coloque o .jar em uma pasta, por exemplo: ~/craftbukkit (se a pasta não existir, crie-a num terminal: mkdir -p ~/bukkit)
+3. entre no diretorio ~/bukkit em um terminal - cd ~/craftbukkit
+4. crie um arquivo com o nome craftbukkit.sh - touch craftbukkit.sh
+5. edite o arquivo e cole o seguinte conteudo:
+#!/bin/sh
+ BINDIR=$(dirname "$(readlink -fn "$0")")
+ cd "$BINDIR"
+ java -Xmx1024M -jar craftbukkit-1.7.9-R0.2-SNAPSHOT.jar
+6. dê permissões de execucao ao arquivo .sh - chmod +x craftbukkit.sh
+7. inicie o servidor: ./craftbukkit.sh
+8. saia do servidor - ctrl+c
+9. baixe e instale o plugin raspberry juice na pasta recem criada 'plugins' - http://addons-origin.cursecdn.com/files/853/920/raspberryjuice-1.6.jar
+10. edite o arquivo server.properties para configurar as funcionalidades necessarias:
+
+allow-flight=true
+online-mode=false
+difficulty=0
+gamemode=1
+spwan-monsters=false
+
+11. inicie o servidor novamente - ./bukkit.sh
+
+lembrando que a versao do minecraft compativel com essas configurações é a 1.7.9
